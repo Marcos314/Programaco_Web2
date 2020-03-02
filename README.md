@@ -1,1 +1,2 @@
-# Desenvolvimento de sistema web em 48hs para estudo.
+# Desenvolvimento de sistema web na disciplina de PW2.
+PHP + MySQL + Bootstrap
