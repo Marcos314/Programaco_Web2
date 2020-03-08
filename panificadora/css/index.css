@@ -1,26 +1,23 @@
-.col-sm-4{
-    
-    padding: 0px !important;
-       
-    
+.carousel {
+    background-image: url(../img/padaria2.jpg);
+    background-position: center;
+    background: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+      
 }
 
-.col-sm-4 img{
-    
-    max-width: 100%;
-    max-height: 100%;
-    
+#carousel-example-generic{
+    background-image: url(../img/padaria2.jpg);
 }
 
-.row {
-    padding-top: 200px;
+.col-lg-3 text-right{
+    position: relative;
+    float: right;
+
 }
 
+h1{
+    text-align: center;
 
-.col-sm-4 area {
-    background-color: wheat;
-}
-
-.w-100{
-    max-width: 990px !important;
 }
