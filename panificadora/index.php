@@ -18,8 +18,9 @@
 
     </div>
 
-
-    <button type="button" class="btn btn-primary btn-lg btn-block">Cadastrar Produtos</button>
+    <a href="cadastrarProd.php"> <button type="button" onclick="windows.location('cadastrarProd.php')" class="btn btn-primary btn-lg btn-block">Cadastrar Produtos</button>
+    </a>    
+    
 </section>
 
 
