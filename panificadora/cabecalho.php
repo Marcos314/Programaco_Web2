@@ -16,10 +16,4 @@
 
 <body>
 
-    <div class="container">
-
-        <div class="div-logo">
-            <img src="#" alt="">
-        </div>
-
-        <div class="principal">
+    
