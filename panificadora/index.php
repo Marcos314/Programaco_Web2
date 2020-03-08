@@ -1,12 +1,29 @@
 <?php include("cabecalho.php"); ?>
-<div class="page-header">
-    <h1>Panificadora Cabral</h1><br>
-    <h1><small>Texto Texto </small></h1>
-</div>
 
-<div class="container">
-    <div>
-        <img src="img/cesta_de_paes.png">
-    </div>
+
+<div class="row">
+  <div class="col">
+      <img src="img/paodequeijo.jpg" alt="img1">
+  </div>
+  <div class="col">
+      <img src="img/cesta.png" alt="img1">
+  </div>
+  <div class="col">
+      <img src="img/paodequeijo.jpg" alt="img1">
+  </div>
+  <div class="w-100">
+      quebra
+  </div>
+  <div class="col">
+      <img src="img/cesta.png" alt="img1">
+  </div>
+  <div class="col">
+      <img src="img/cesta.png" alt="img1">
+  </div>
+  <div class="col">
+      <img src="img/cesta.png" alt="img1">
+  </div>
 </div>
+    
+
 <?php include("rodape.php"); ?>

@@ -6,8 +6,11 @@
     <title>Panificadora Cabral</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/panificadora_cabecalho.css" rel="stylesheet">
-    <link href="css/teste.css" rel="stylesheet">
-   
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -15,21 +18,8 @@
 
     <div class="container">
 
-        <div class="contact">
-            <img src="/panificadora/icons/icon-phone.png" alt="phone" class="icon">
-            (61) 1111-1111 &nbsp
-
-            <img src="/panificadora/icons/icon-whatsapp.png" alt="phone" class="icon">
-            (61) 98162-7720
+        <div class="div-logo">
+            <img src="#" alt="">
         </div>
 
-        <div class="menu-top">
-
-            <img src="/panificadora/icons/icon-map.png" alt="phone" class="icon">
-            Localização &nbsp
-
-            <img src="/panificadora/icons/icon-mail.png" alt="phone" class="icon">
-            Entre em contato
-        </div>
-
-    <div class="principal">
+        <div class="principal">

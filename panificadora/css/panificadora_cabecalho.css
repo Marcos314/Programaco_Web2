@@ -1,38 +1,7 @@
-body{
-    padding-top: 10px;
-}
-
-/* .container {
-    border-bottom:solid;
-    border-width: 1px;
-} */
-.principal{
-    padding: 40px 15px;
-    text-align: center;
-}
-
-.contact {
-    /* border-style: dashed; */
-    /* border-color: black; */
-    /* padding-left: 0; */
-    padding-bottom: 10px;
-    font-size: 1em;
-    font-weight: bold;
-    color:black;
-    position: relative;
-    float: left;
-    
-}
-.icon {
-    height: 1.3em;
-}
-.menu-top {
-    position: relative;
-    float: right;
-    padding-left: 0;
-    font-size: 1em;
-    font-weight: bold;
-    color:black;    
+.div-logo {
+    background-color: black;
+ 
+   
 }
 
 
