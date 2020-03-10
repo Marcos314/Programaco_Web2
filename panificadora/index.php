@@ -1,14 +1,32 @@
 <?php include("cabecalho.php"); ?>
 
-<h1>Padaria <br>Cabral</h1>
+<!-- Barra superior - navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Padaria Cabral</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-
-<main class="main-principal">
+<!-- Main -->
+<main class="main_img">
+    <!-- Adicionar efeitos -->
 
 </main>
 
-<section>
-    <div class="conteudo">
+ <div class="conteudo">
         <h2>Um pouco da nossa História..</h2>
         <p>Bem-vindo a Padaria Cabral
             Fundada em 30 de Maio de 1994, a Padaria Cabral tem como principais operações a fabricação, venda e distribuição de produtos de panificação, confeitaria e produtos congelados.
@@ -18,13 +36,14 @@
 
     </div>
 
-    <a href="cadastrarProd.php"> <button type="button" onclick="windows.location('cadastrarProd.php')" class="btn btn-primary btn-lg btn-block">Cadastrar Produtos</button>
-    </a>    
-    
-</section>
+    <div class="direita_img">
+        <img src="img/paodequeijo.jpg" alt="pq">
+    </div>
 
 
-
+    <div class="espaco">
+        <a href="cadastrarProd.php"> <button type="button" onclick="windows.location('cadastrarProd.php')" class="btn btn-primary btn-lg btn-block">Cadastrar Produtos</button>
+    </div>
 
 
 <?php include("rodape.php"); ?>

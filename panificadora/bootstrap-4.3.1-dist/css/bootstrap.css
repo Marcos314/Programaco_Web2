@@ -4229,7 +4229,6 @@ input[type="button"].btn-block {
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
-
 }
 
 .navbar-toggler-icon {
@@ -4240,7 +4239,6 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
-
 }
 
 @media (max-width: 575.98px) {
