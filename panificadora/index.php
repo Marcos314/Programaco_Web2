@@ -15,6 +15,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastrar Produto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastrar Funcionário</a>
+                </li>
             </ul>
         </div>
     </div>
