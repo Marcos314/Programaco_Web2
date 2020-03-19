@@ -21,7 +21,7 @@
 
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/teste/01.jpg">
+                <img src="img/logo.jpg">
             </a>        
         </div>
 
