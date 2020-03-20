@@ -1,14 +1,39 @@
 header{
-	padding:150px 0 30px 0;
-	background: linear-gradient(90deg, #96c74f 0%, #3fbb96 100%);
+	padding:150px 0;
+	background: linear-gradient(90deg, #86700b 0%, #535e18 100%);
+}
+
+h1{
+	font-family: 'Viaoda Libre', cursive;
+}
+
+p{
+	text-align: justify;
+	font-weight: bold;
 }
 
 footer{
 	padding: 20px 0;
 }
 
+.carousel-inner img {
+	border-radius: 5%;
+	width: 550px;
+	height: 350px;
+}
+
+.carousel-inner {
+	margin-left: 50px;
+}
+
+.col-lg-5 {
+	padding-top: 0;
+}
+
+
+
 .navbar-default{
-	background: linear-gradient(90deg, #96c74f 0%, #3fbb96 100%);
+	background: linear-gradient(90deg, #86700b 0%, #535e18 100%);
 }
 
 #course{
