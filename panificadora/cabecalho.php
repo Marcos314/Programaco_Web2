@@ -40,7 +40,7 @@
                         <a class="nav-link" href="#">CONTATO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cadastrarProd.php">CADASTRAR PRODUTOS</a>
+                        <a class="nav-link" href="produtoForm.php">CADASTRAR PRODUTOS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CADASTRAR FUNCIONARIOS</a>
