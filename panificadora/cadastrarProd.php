@@ -2,58 +2,81 @@
 
 <!-- <h1>Padaria <br>Cabral</h1> -->
 
-<main class="main-principal2">
+
+
+<main>
+    <hr><br>
+    <h1>Cadastrar Produto</h1>
+
+
+    <form class="formulario">
+        <!-- LINHA 1 -->
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="prod">Produto</label>
+                <input type="text" class="form-control" id="prod" placeholder="Nome do Produto">
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="ingredientes">Quantidade</label>
+                <input type="number" class="form-control" id="qtd" placeholder="">
+            </div>
+        </div>
+        
+        <!-- VALOR -->
+        <div class="form-row">
+
+        <div class="form-group col-md-6">
+            <label for="inputAddress2">Valor</label>
+            <input type="number" class="form-control" id="valor" placeholder="R$ 10,00">
+        </div>
+
+        <div class="form-group com-md-6">
+            <label for="inputAddress2">Valor Revenda</label>
+            <input type="number" class="form-control" id="valor2" placeholder="R$ 12,00">
+        </div>
+
+        </div>
+        <!-- LINHA 3 -->
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label for="ingredientes">Ingredientes</label>
+                <input type="text" class="form-control" id="ingredientes" placeholder="400 ml de leite...">
+            </div>
+
+            <div class="form-group col-md-6">
+                <label for="descricao">Descrição</label>
+                <textarea type="text" class="form-control" id="desc" placeholder="Descrição do Produto"></textarea>
+            </div>
+        </div>       
+
+        <!-- LINHA 4 -->
+        <br>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Fabricação</label>
+                <input type="date" class="form-control" id="fab">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Validade</label>
+                <input type="date" class="form-control" id="val">
+            </div>
+        </div>
+
+        <!-- Botão -->
+
+        <br><br>
+        <button type="submit" id="btn" class="btn btn-secondary btn-lg btn-block">Cadastrar</button>
+    </form>
+    
+    
+  <hr class="linha">
+
 
 </main>
 
-<h1>Cadastrar Produto</h1>
-<form class="form-cadastro">
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Produto</label><br>
-    <input type="text" class="form-control" id="exampleFormControlInput1">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Descrição</label><br>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 
-
-  </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Ingredientes</label><br>
-    <input type="text" class="form-control" id="exampleFormControlInput1">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Quantidade</label><br>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Fabricação</label><br>
-    <input type="date" class="form-control" id="exampleFormControlInput1">
-
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Validade</label><br>
-    <input type="date" class="form-control" id="exampleFormControlInput1">
-
-  </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Valor</label><br>
-    <input type="number" class="form-control" id="exampleFormControlInput1">
-
-  </div>
-</form>
-
-<div  id="btn_cadastrar">
-  <button type="submit" value="Cadastrar" class="btn btn-primary btn-md">Cadastrar Produtos</button>
-</div>
 
 
 <?php include("rodape.php"); ?>
